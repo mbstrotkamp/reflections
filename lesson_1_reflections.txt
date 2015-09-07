@@ -1,0 +1,22 @@
+1.Comparing game_new.js and game_old.js via the FC (file comparison) command 
+allowed us to ignore the areas where no changes were made. 
+It allowed us to focus on the relevant changes more quickly.
+
+2.How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	You could quickly and easily go back to versions that work better to recover from errors or disasters. 
+	You can watch the evolution of code, and see different ways to achieve the same effects(maybe, if you're trying different code along the way).
+
+
+3.What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	Cons include forgetting. You could also choose illogical commits, but that is also a problem w/ Google Docs.
+
+4.Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	If files are related, it is good to save them all when a change is made. OTOH, it can take up more space to do so.
+
+5. How can you use the commands git log and git diff to view the history of files?
+	Git log will show all of the commits along with any add'l info you provided like summaries.Git diff allows comparision of 2 commits.
+
+6.How might using version control make you more confident to make changes that could break something?
+	You can always go back, and knowing what has and hasn't changed, you can pinpoint bugs.
+7.
+
