@@ -1,3 +1,4 @@
 1.What happens when you initialize a repository? Why do you need to do it?
 	When you initialize a repository it begins tracking changes to that repository. If you don't do it, what's the point? It also creates a .git folder that remains hidden.
-2.
+2.How is the staging area different from the working directory and the repository? What value do you think it offers?
+	It is not committed. The value is that it gives you a place to keep track of what you're doing prior to commitment.
