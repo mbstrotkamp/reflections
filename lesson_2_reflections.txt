@@ -2,3 +2,11 @@
 	When you initialize a repository it begins tracking changes to that repository. If you don't do it, what's the point? It also creates a .git folder that remains hidden.
 2.How is the staging area different from the working directory and the repository? What value do you think it offers?
 	It is not committed. The value is that it gives you a place to keep track of what you're doing prior to commitment.
+3.How can you use the staging area to make sure you have one commit per logical change?
+	You can check diff between staging and last commit or between working and staged.
+4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When you want to try experimental features, or alternate versions.
+5.How do the diagrams help you visualize the branch structure?
+	They show the parent of each commit back to where the branches separated.
+6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Consolidated history. Commits are then shown according to the date/timestamp. 
